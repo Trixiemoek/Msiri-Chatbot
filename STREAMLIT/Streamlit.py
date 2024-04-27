@@ -1,6 +1,6 @@
 import streamlit as st
 from rasa.core.agent import Agent
-rasa_agent = Agent.load('MODEL')
+rasa_agent = Agent.load('MODEL/20240425-203440-charcoal-mayonnaise')
 # Streamlit title and header
 st.title("Msiri")
 st.header("Msiri keeps your Secrets")
