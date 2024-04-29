@@ -1,5 +1,5 @@
 rasa==1.10.2
-rasa-sdk==3.0.0
+rasa-sdk==2.0.0rc1
 rasa-x==0.39.3
 spacy==3.0.6
 tensorflow==2.4.1
