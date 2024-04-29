@@ -40,7 +40,7 @@ cloudpickle==2.0.0
 colorama==0.4.4
 colorclass==2.2.0
 colorhash==1.0.3
-comm==0.0.2
+comm==0.2.2
 confection==1.1.0
 confluent-kafka==1.8.0
 contourpy==0.5.2
