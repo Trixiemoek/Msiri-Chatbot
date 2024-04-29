@@ -1,0 +1,398 @@
+version: "3.1"
+
+stories:
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: user greets
+  steps:
+  - intent: greeting
+  - action: utter_greeting
+
+- story: user says good morning
+  steps:
+  - intent: morning
+  - action: utter_morning
+
+- story: user says good afternoon
+  steps:
+  - intent: afternoon
+  - action: utter_afternoon
+
+- story: user says good evening
+  steps:
+  - intent: evening
+  - action: utter_evening
+
+- story: user says good night
+  steps:
+  - intent: night
+  - action: utter_night
+
+- story: user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: user expresses gratitude
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+- story: user provides neutral response
+  steps:
+  - intent: neutral-response
+  - action: utter_neutral-response
+
+- story: user asks about the chatbot
+  steps:
+  - intent: about
+  - action: utter_about
+
+- story: user asks about chatbot's capabilities
+  steps:
+  - intent: skill
+  - action: utter_skill
+
+- story: user asks about chatbot's creation
+  steps:
+  - intent: creation
+  - action: utter_creation
+
+- story: user introduces themselves
+  steps:
+  - intent: name
+  - action: utter_name
+
+- story: user asks for help
+  steps:
+  - intent: help
+  - action: utter_help
+
+- story: user expresses sadness
+  steps:
+  - intent: sad
+  - action: utter_sad
+
+- story: user expresses feeling stressed
+  steps:
+  - intent: stressed
+  - action: utter_stressed
+
+- story: user expresses feeling worthless
+  steps:
+  - intent: worthless
+  - action: utter_worthless
+
+- story: user expresses feeling depressed
+  steps:
+  - intent: depressed
+  - action: utter_depressed
+
+- story: user expresses feeling happy
+  steps:
+  - intent: happy
+  - action: utter_happy
+
+- story: user responds casually
+  steps:
+  - intent: casual
+  - action: utter_casual
+
+- story: user expresses feeling anxious
+  steps:
+  - intent: anxious
+  - action: utter_anxious
+
+- story: user doesn't want to talk
+  steps:
+  - intent: not-talking
+  - action: utter_not-talking
+
+- story: user mentions sleep issues
+  steps:
+  - intent: sleep
+  - action: utter_sleep_issue
+
+- story: user expresses feeling scared
+  steps:
+  - intent: scared
+  - action: utter_scared
+
+- story: user mentions death of a loved one
+  steps:
+  - intent: death
+  - action: utter_death
+
+- story: user feels misunderstood
+  steps:
+  - intent: understand
+  - action: utter_understand
+
+- story: user ends the conversation
+  steps:
+  - intent: done
+  - action: utter_done
+
+- story: user expresses suicidal thoughts
+  steps:
+  - intent: suicide
+  - action: utter_suicide
+
+- story: user expresses dislike for the chatbot
+  steps:
+  - intent: hate-you
+  - action: utter_hate-you
+
+- story: user thinks the chatbot hates them
+  steps:
+  - intent: hate-me
+  - action: utter_hate-me
+
+- story: user talks about various topics
+  steps:
+  - intent: default
+  - action: utter_default_topic
+
+- story: user asks for a joke
+  steps:
+  - intent: jokes
+  - action: utter_no_jokes
+
+- story: user points out repetition
+  steps:
+  - intent: repeat
+  - action: utter_repeat
+
+- story: user disagrees with the chatbot's response
+  steps:
+  - intent: wrong
+  - action: utter_wrong
+
+- story: user insults the chatbot
+  steps:
+  - intent: stupid
+  - action: utter_stupid
+
+- story: user asks about the chatbot's location
+  steps:
+  - intent: location
+  - action: utter_location
+
+- story: user wants to change the topic
+  steps:
+  - intent: something-else
+  - action: utter_something_else
+
+- story: user expresses lack of friends
+  steps:
+  - intent: friends
+  - action: utter_friends
+
+- story: user asks permission to ask a question
+  steps:
+  - intent: ask
+  - action: utter_ask
+
+- story: user mentions a specific problem
+  steps:
+  - intent: problem
+  - action: utter_problem
+
+- story: user indicates not taking any approach
+  steps:
+  - intent: no-approach
+  - action: utter_no_approach
+
+- story: user agrees to learn more
+  steps:
+  - intent: learn-more
+  - action: utter_learn_more
+
+- story: user agrees to take a break
+  steps:
+  - intent: user-agree
+  - action: utter_meditation_advice
+
+- story: user acknowledges usefulness of meditation
+  steps:
+  - intent: meditation
+  - action: utter_meditation_technique
+
+- story: user reports feeling better after meditation
+  steps:
+  - intent: user-meditation
+  - action: utter_meditation_effect
+
+- story: user expresses gratitude for the advice
+  steps:
+  - intent: msiri-useful
+  - action: utter_gratitude_response
+
+- story: user asks for advice
+  steps:
+  - intent: user-advice
+  - action: utter_ask_for_advice
+
+- story: user wants to learn about mental health
+  steps:
+  - intent: learn-mental-health
+  - action: utter_learn_mental_health
+
+- story: user asks for mental health facts
+  steps:
+  - intent: mental-health-fact
+  - action: utter_mental_health_fact
+
+- story: user asks for definition of mental health
+  steps:
+  - intent: fact-1
+  - action: utter_mental_health_definition
+
+- story: user asks for importance of mental health
+  steps:
+  - intent: fact-2
+  - action: utter_mental_health_importance
+
+- story: user asks for definition of depression
+  steps:
+  - intent: fact-3
+  - action: utter_depression_definition
+  
+- story: user asks how to identify depression
+  steps:
+  - intent: fact-5
+  - action: utter_depression_identification
+
+- story: user asks about therapists
+  steps:
+  - intent: fact-6
+  - action: utter_therapist_definition
+
+- story: user asks about therapy
+  steps:
+  - intent: fact-7
+  - action: utter_therapy_definition
+
+- story: user asks about mental illness
+  steps:
+  - intent: fact-8
+  - action: utter_mental_illness_definition
+
+- story: user asks who mental illness affects
+  steps:
+  - intent: fact-9
+  - action: utter_mental_illness_affect
+
+- story: user asks about causes of mental illness
+  steps:
+  - intent: fact-10
+  - action: utter_mental_illness_causes
+
+- story: user asks about warning signs of mental illness
+  steps:
+  - intent: fact-11
+  - action: utter_mental_illness_warning_signs
+
+- story: user asks if people with mental illness can recover
+  steps:
+  - intent: fact-12
+  - action: utter_mental_illness_recovery
+
+- story: user asks what to do if they know someone with symptoms of a mental disorder
+  steps:
+  - intent: fact-13
+  - action: utter_mental_illness_support
+  
+- story: user asks about treatment options
+  steps:
+  - intent: fact-15
+  - action: utter_treatment_options
+
+- story: user asks about being involved in treatment
+  steps:
+  - intent: fact-16
+  - action: utter_involved_in_treatment
+
+- story: user asks about the difference between mental health professionals
+  steps:
+  - intent: fact-17
+  - action: utter_difference_mental_health_professionals
+
+- story: user asks how to find a mental health professional
+  steps:
+  - intent: fact-18
+  - action: utter_find_mental_health_professional
+
+- story: user asks where else to get help
+  steps:
+  - intent: fact-19
+  - action: utter_where_to_get_help
+
+- story: user asks what to know before starting a new medication
+  steps:
+  - intent: fact-20
+  - action: utter_medication_starting_info
+
+- story: user asks where to find therapy
+  steps:
+  - intent: fact-21
+  - action: utter_where_to_find_therapy
+
+- story: user asks where to learn about types of mental health treatment
+  steps:
+  - intent: fact-22
+  - action: utter_learn_about_treatment_types
+
+- story: user asks about different types of mental health professionals
+  steps:
+  - intent: fact-23
+  - action: utter_mental_health_professionals_types
+
+- story: user asks where to find a support group
+  steps:
+  - intent: fact-24
+  - action: utter_find_support_group
+
+- story: user asks if mental health problems can be prevented
+  steps:
+  - intent: fact-25
+  - action: utter_mental_health_prevention
+
+- story: user asks if there are cures for mental health problems
+  steps:
+  - intent: fact-26
+  - action: utter_mental_health_cures
+
+- story: user asks what causes mental health problems
+  steps:
+  - intent: fact-27
+  - action: utter_mental_health_causes
+
+- story: user asks what to do if worried about mental health
+  steps:
+  - intent: fact-28
+  - action: utter_mental_health_worried
+
+- story: user asks how to know if they're unwell
+  steps:
+  - intent: fact-29
+  - action: utter_mental_health_unwell
+
+- story: user asks how to maintain social connections and cope with loneliness
+  steps:
+  - intent: fact-30
+  - action: utter_maintain_social_connections
+
+- story: user asks the difference between anxiety and stress
+  steps:
+  - intent: fact-31
+  - action: utter_anxiety_vs_stress
+
+- story: user asks the difference between sadness and depression
+  steps:
+  - intent: fact-32
+  - action: utter_sadness_vs_depression
