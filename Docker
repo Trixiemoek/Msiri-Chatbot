@@ -1,0 +1,21 @@
+# Use the official Rasa Docker image as the base image
+FROM rasa/rasa:2.8.10-full
+
+# Copy your Rasa chatbot project into the Docker image
+COPY C:/Users/HomePC/Documents/Mental\ Health /app
+
+# Set the working directory
+WORKDIR /app
+
+# Install any additional dependencies required by your Rasa chatbot
+# For example, if you have additional Python dependencies, you can install them here
+# RUN pip install -r requirements.txt
+
+# Train your Rasa model during the build process
+RUN rasa train
+
+# Expose the port on which your Rasa server will run
+EXPOSE 5005
+
+# Start the Rasa server when the Docker container starts
+CMD ["rasa", "run", "-p", "5005", "--cors", "*"]
