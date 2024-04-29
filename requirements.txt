@@ -147,7 +147,7 @@ jupyter_server_terminals
 jupyterlab
 jupyterlab-pygments
 jupyterlab-widgets
-kaggle==1.5.22
+kaggle==1.5.16
 kafka-python==3.1.0
 kaitai-struct==0.10
 keras-nightly
