@@ -3,7 +3,7 @@ aio-pika==6.7.1
 aiofiles==0.7
 aiogram==2.14
 aiohttp==3.7.4
-aiohttp-retry==3.0.0
+aiohttp-retry<=3.0.0
 aiormq==3.4.0
 altair==4.1.0
 APScheduler==3.7.0
