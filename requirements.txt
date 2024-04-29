@@ -148,7 +148,7 @@ jupyterlab
 jupyterlab-pygments
 jupyterlab-widgets
 kaggle==1.5.16
-kafka-python==3.1.0
+kafka-python==2.0.2
 kaitai-struct==0.10
 keras-nightly
 Keras-Preprocessing==1.1.2
