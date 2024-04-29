@@ -2,7 +2,7 @@
 FROM rasa/rasa:2.8.10-full
 
 # Copy your Rasa chatbot project into the Docker image
-COPY C:/Users/HomePC/Documents/Mental\ Health /app
+COPY "C:/Users/HomePC/Documents/Mental Health" /app
 
 # Set the working directory
 WORKDIR /app
