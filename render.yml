@@ -1,6 +1,7 @@
-services:
-  - name: rasa
-    buildCommand: |
-      pip install rasa
-      rasa train
-    startCommand: rasa run
+build:
+  python: 3.8.5
+  - name: Install rasa
+    command: pip install rasa
+  - name: Run your build commands
+    command: |
+      # Add your build commands here
