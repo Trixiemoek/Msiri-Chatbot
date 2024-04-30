@@ -1,12 +1,6 @@
 build:
-  python: 3.8.5
   - name: Install rasa
-    command: pip install rasa
-
-    build:
-  - name: Verify Python version
-    command: python --version
-  - name: Install rasa
-    command: pip install rasa
+    command: |
+      python3.8 -m pip install rasa
 
       # Add your build commands here
