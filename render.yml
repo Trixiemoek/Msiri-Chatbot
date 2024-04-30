@@ -1,0 +1,6 @@
+services:
+  - name: rasa
+    buildCommand: |
+      pip install rasa
+      rasa train
+    startCommand: rasa run
