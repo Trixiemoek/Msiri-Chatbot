@@ -1,6 +1,8 @@
 build:
+  - name: Set Python version
+    command: |
+      pyenv global 3.8.5
+
   - name: Install rasa
     command: |
-      python3.8 -m pip install rasa
-
-      # Add your build commands here
+      pip install rasa
