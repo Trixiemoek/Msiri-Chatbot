@@ -1,8 +1,6 @@
 build:
-  - name: Set Python version
+  - name: Install Python 3.8.5
     command: |
-      pyenv global 3.8.5
-
-  - name: Install rasa
-    command: |
-      pip install rasa
+      apt-get update && apt-get install -y python3.8
+  - name: Install dependencies
+    command: pip install -r requirements.txt
